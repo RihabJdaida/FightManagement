@@ -38,8 +38,8 @@ public class FlightManagement {
         layoverInformationArrayList.add(new LayoverInformation(layoverAirportOne, LocalDate.of(2019, 4, 12), LocalDate.of(2019, 4, 13),flight));
         layoverInformationArrayList.add(new LayoverInformation(layoverAirportTwo, LocalDate.of(2019, 4, 14), LocalDate.of(2019, 4, 15),flight));
 
-        IPerson client = PersonCreator.createPerson("com.ipssas.flight.Client.class");
-        IPerson passenger = PersonCreator.createPerson("com.ipssas.reservation.Passenger.class");
+        IPerson client = PersonCreator.createPerson("com.ipssas.flight.Client");
+        IPerson passenger = PersonCreator.createPerson("com.ipssas.reservation.Passenger");
         Client client1 = (Client) client;
         client1.setName("Rihab");
         client1.setLastName("jdaida");

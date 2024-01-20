@@ -13,6 +13,9 @@ public class Client extends Person implements IPerson {
     private int phoneNumber;
     private int faxNumber;
 
+    public Client() {
+    }
+
     public Client(String name, String lastName, int phoneNumber, int faxNumber) {
         this.name = name;
         this.lastName = lastName;

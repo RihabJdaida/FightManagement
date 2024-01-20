@@ -9,6 +9,9 @@ public class Passenger extends Person implements IPerson {
 
     private Reservation reservation;
 
+    public Passenger() {
+    }
+
     protected Passenger(String name, String lastName) {
         this.name = name;
         this.lastName = lastName;
